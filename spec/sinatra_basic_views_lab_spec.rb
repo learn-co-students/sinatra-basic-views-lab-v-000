@@ -18,7 +18,7 @@ describe 'App' do
 
 
     it "displays the name of the bowling alley in an h1 tag" do
-      expect(last_response.body).to include("<h1> Buster's Best Bowling Alley</h1>")
+      expect(last_response.body).to include("<h1>Buster's Best Bowling Alley</h1>")
     end
 
     it "displays the bowling alley tagline in an h2" do
