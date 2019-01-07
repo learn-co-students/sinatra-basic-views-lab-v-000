@@ -1,12 +1,12 @@
 require 'spec_helper'
 
 describe 'App' do
-  
+
   describe "GET '/'" do
     before do
       get '/'
     end
-    
+
     it "returns a 200 status code" do
       expect(last_response.status).to eq(200)
     end
@@ -26,7 +26,7 @@ describe 'App' do
     end
 
     it "displays the bowling alley address in a p tag" do
-      expect(last_response.body).to include("<p>97 Bowling Alley Lane, Boulder CO </p>")
+      expect(last_response.body).to include("<p>97 Bowling Alley Lane, Boulder, CO</p>")
     end
 
   end
