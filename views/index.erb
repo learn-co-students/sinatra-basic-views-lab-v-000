@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Buster's Best Bowling Alley</title>
+  </head>
+  <body>
+    <h1> Buster's Best Bowling Alley</h1>
+    <h2> Bet You Can't Bowl A Strike Every Time</h2>
+    <p> 97 Bowling Alley Lane, Boulder CO </p>
+   
+    </br></br></br>
+    <h1>Next lesson</h1>
+    
+    <h2>Substitution tags</h2>
+    <h3><%= "I love " + "Ruby!!" %></h3>
+    <%= 1 + 1 %>
+    <h2>Scripting tags</h2>
+    <% if 1 == 2 %>
+      <p>1 equals 2.</p>
+    <% else %>
+      <p>1 does not equal 2.</p>
+    <% end %>
+    <h2>Iteration</h2>
+    <ul>
+      <% squares = [1, 4, 9, 16] %>
+      <% squares.each do |square| %>
+        <li><%= square %></li>
+      <% end %>
+    </ul>
+    
+  </body>
+</html>
