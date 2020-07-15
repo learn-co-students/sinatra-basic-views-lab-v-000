@@ -2,7 +2,7 @@
 
 ## Objectives
 
-1. Set a controller action to render a separate view 
+1. Set a controller action to render a separate view
 2. Render HTML in the view
 
 ## Instructions
