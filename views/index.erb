@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1><%= "I love " + "Ruby!!" %></h1>
+    <%= 1 + 1 %>
+
+    <% if 1 == 2 %>
+      <p>1 equals 2.</p>
+    <% else %>
+      <p>1 does not equal 2.</p>
+    <% end %>
+
+    <p>Iteration example</p>
+    <ul>
+      <% squares = [1, 4, 9, 16] %>
+      <% squares.each do |square| %>
+        <li><%= square %></li>
+      <% end %>
+    </ul>
+
+    <p>Posts example</p>
+    <% wall_posts = ["First post!", "Second post!", "Hello, it's your mother. Why don't you ever call me?"] %>
+    <ul>
+      <% wall_posts.each do |post| %>
+        <li><%= post %></li>
+      <% end %>
+    </ul>
+  </body>
+</html>
