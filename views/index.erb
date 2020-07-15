@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Info Page</title>
+    </head>
+    <body>
+        <h1> Buster's Best Bowling Alley</h1>
+        <h2> Bet You Can't Bowl A Strike Every Time</h2>
+        <h2><%= "I love " + "Ruby!!" %></h2>
+        <h1><%= 1 + 1 %></h1>
+        <p> 97 Bowling Alley Lane, Boulder CO </p>
+
+
+        <ul>
+          <% squares = [1, 4, 9, 16] %>
+          <% squares.each do |square| %>
+            <li><%= square %></l1>
+          <% end %>
+        </ul>
+
+        <% wall_posts = ["First post!", "Second post!", "Hello, it's your mother. Why don't you ever call me?"] %>
+        <ul>
+          <% wall_posts.each do |post| %>
+            <li><%= post %></li>
+          <% end %>
+        </ul>
+    </body>
+</html>
