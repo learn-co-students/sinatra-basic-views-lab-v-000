@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sinatra Basic Views Lab</title>
+  </head>
+
+  <body>
+    <h1> Buster's Best Bowling Alley</h1>
+    <h2> Bet You Can't Bowl A Strike Every Time</h2>
+    <p> 97 Bowling Alley Lane, Boulder CO </p>
+    <h1><%= "I love " + "Ruby!!" %></h1>
+    <%= 1 + 1 %>
+
+    <% if 1 == 2 %>
+      <p>1 equals 2.</p>
+    <% else %>
+      <p>1 does not equal 2.</p>
+    <% end %>
+
+    <%squares = [1,2,4,8]%>
+    <ul>
+    <% squares.each do |square| %>
+      <li><%= square %></li>
+    <% end %>
+    </ul>
+
+    <% wall_posts = ["First post!", "Second post!", "Hello, it's your mother, why don't you ever call me?"] %>
+
+    <ul>
+    <% wall_posts.each do |post| %>
+      <li><%= post %></li>
+    <% end %>
+    </ul>
+
+  </body>
+
+
+
+
+</html>
